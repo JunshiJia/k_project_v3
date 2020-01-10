@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.junshijia.fault_record.dao.OneSecDao">
+
+	<resultMap type="com.junshijia.k_project_v3.domain.TenMsData" id="ResultMap">
+		<id property="id" column="id"/>
+		<result property="HMI_IReg106" column="HMI_IReg[106]"/>
+		<result property="HMI_IReg110" column="HMI_IReg[110]"/>
+		<result property="HMI_IReg210" column="HMI_IReg[210]"/>
+		<result property="HMI_IReg211" column="HMI_IReg[211]"/>
+		<result property="HMI_IReg282" column="HMI_IReg[282]"/>
+		<result property="HMI_IReg168" column="HMI_IReg[168]"/>
+		<result property="HMI_Disc912" column="HMI_Disc[912]"/>
+		<result property="HMI_Disc919" column="HMI_Disc[919]"/>
+	</resultMap>
+
+	<select id="findAll" parameterType="java.lang.String" resultMap="ResultMap">
+		 select * from ${tableName}
+	</select>
+
+</mapper>

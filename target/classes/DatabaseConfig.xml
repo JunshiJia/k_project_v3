@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="jdbcConfig.properties"></properties>
+
+    <settings>
+        <setting name="cacheEnabled" value="false"/>
+    </settings>
+
+    <typeAliases>
+        <package name="com.junshijia.fault_record.domain"/>
+    </typeAliases>
+
+    <environments default="megaSpace">
+        <environment id="megaSpace">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="UNPOOLED">
+                <property name="driver" value="${megaSpace.jdbc.driver}"/>
+                <property name="url" value="${megaSpace.jdbc.url}"/>
+                <property name="username" value="${megaSpace.jdbc.username}"/>
+                <property name="password" value="${megaSpace.jdbc.password}"/>
+            </dataSource>
+        </environment>
+
+        <environment id="test">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${test.jdbc.driver}"/>
+                <property name="url" value="${test.jdbc.url}"/>
+                <property name="username" value="${test.jdbc.username}"/>
+                <property name="password" value="${test.jdbc.password}"/>
+                <property name="poolPingQuery" value="SELECT NOW()"/>
+                <property name="poolPingEnabled" value="true"/>
+                <property name="poolPingConnectionsNotUsedFor" value="3600000"/>
+            </dataSource>
+        </environment>
+
+    </environments>
+
+    <mappers>
+        <package name="com.junshijia.fault_record.dao"/>
+    </mappers>
+</configuration>
