@@ -24,6 +24,7 @@ public class FetchDB2CSV {
 
     private TenMsDao dataDao;
     private List<TenMsData> dataList;
+    private int maxId;
 
     public FetchDB2CSV(int turbineNumber) {
         this.turbineNumber = turbineNumber;
@@ -69,7 +70,13 @@ public class FetchDB2CSV {
                 this.dataDao = session.getMapper(TenMsDao.class);
 
                 //1 得到dataList
-                this.dataList = dataDao.findAll(this.dbName);
+                this.maxId = dataDao.findLast(this.dbName).getId();
+                if(this.maxId>90000) {
+                    this.dataList = dataDao.findAll(this.dbName);
+                }else{
+                    System.out.println("w8 ecs to write table...");
+                    Thread.sleep(6000000);
+                }
                 //2 清除缓存
                 this.session.commit();
                 this.session.clearCache();
@@ -80,7 +87,7 @@ public class FetchDB2CSV {
                 this.list2Csv();
                 flag = false;
             } catch (Exception e) {
-                System.out.println(this.dbName+" DB error, wait 5min and reconnect...");
+                System.out.println(this.dbName+": DB error, wait 5min and reconnect...");
                 e.printStackTrace();
                 try {
                     Thread.sleep(300000);
@@ -104,7 +111,7 @@ public class FetchDB2CSV {
         StringBuilder body;
         head.append("HMI_IReg[106]").append("HMI_IReg[110]").append("HMI_IReg[168]").append("HMI_IReg[210]");
         head.append("HMI_IReg[211]").append("HMI_IReg[282]").append("HMI_Disc[912]").append("HMI_Disc[919]");
-        File file = new File("inputFile.csv");
+        File file = new File("/home/k_value/inputFile.csv");
 
         try {
             if(file.exists()){

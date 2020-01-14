@@ -1,4 +1,5 @@
-package com.junshijia.k_project_v3.process;
+package com.junshijia.k_project_v3.k_value_process;
+
 
 import com.junshijia.k_project_v3.k_utils.KUtils;
 
@@ -9,39 +10,44 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UseAlg {
-    private InitInput input;
     private List<Float> outputK;
     private List<Float> outputCp;
     private Integer outputSeq;
     private Integer outputFlag;
     private Integer outputResultBit;
+    private String arg;
 
 
     public UseAlg() {
-        this.input = new InitInput();
         this.outputK = new ArrayList<>();
         this.outputCp = new ArrayList<>();
     }
 
-    public void usePython(){
+    public void usePython(String inputK, String inputSeq, String inputCp, String inputResult) {
+        this.arg = "python F:\\a.py F:\\aaa.csv " +
+                inputK + inputSeq + inputCp + inputResult;
+
+        System.out.println(this.arg);
+        //把输入传到文件，包括算法计算的值等
+        KUtils.WriteAlg2File(this.arg);
+        //调用算法
+        this.parseAlg2PythonFunc(this.arg);
+    }
+
+    public void parseAlg2PythonFunc(String args){
         int count = 0;
-
-        input.getK().set(0,0.7F);
-
-        String args2 = "python F:\\a.py F:\\aaa.csv "+input.getInputK()+(input.getSeq())+" "+
-                input.getInputCp()+input.getResult();
-        System.out.println(args2);
         try {
-            java.lang.Process pr = Runtime.getRuntime().exec(args2);
+            java.lang.Process pr = Runtime.getRuntime().exec(args);
 
             BufferedReader in = new BufferedReader(new InputStreamReader(pr.getInputStream()));
             String line;
             while ((line = in.readLine()) != null) {
+                //写结果
                 readAlgOutput(line,count++);
             }
             in.close();
             int re=pr.waitFor();
-            System.out.println(re==1?"----状态码1----运行失败":"----状态码0----运行成功");
+            System.out.println(re==1?"python算法：----状态码1----运行失败":"----状态码0----运行成功");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
@@ -75,12 +81,29 @@ public class UseAlg {
         }
     }
 
-    private void renewInput(){
-
-    }
-
     public List<Float> getOutputK() {
         return outputK;
+    }
+
+    public Float getCurrentK(){
+        int i;
+        Float currentK = 0F;
+        for(i = 0;i < outputK.size();i++){
+            if(outputK.get(i)==0){
+                break;
+            }
+            currentK = outputK.get(i);
+        }
+        return currentK;
+    }
+
+    public Float getFinalK(){
+        if(this.getOutputFlag()==1) {
+            return this.outputK.get(outputResultBit);
+        }else{
+            System.out.println("result bit is 0, no final K");
+            return 0F;
+        }
     }
 
     public void setOutputK(List<Float> outputK) {

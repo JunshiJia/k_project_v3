@@ -1,6 +1,5 @@
-package com.junshijia.k_project_v3.process;
+package com.junshijia.k_project_v3.k_value_process;
 
-import com.junshijia.k_project_v3.data_transfer.ReadMainControl;
 import com.junshijia.k_project_v3.k_utils.KUtils;
 
 import java.util.ArrayList;
@@ -11,21 +10,21 @@ public class InitInput {
     private Integer seq;
     private List<Float> cp;
     private Integer result;
-    private ReadMainControl kopt;
+
 
     //字符串输入
     private String inputK;
     private String inputCp;
 
-    public InitInput() {
-        this.kopt = new ReadMainControl("127.0.0.1");
+    //外部输入
+    public InitInput(Float kopt) {
         k = new ArrayList<>();
         cp = new ArrayList<>();
         for(int i = 0; i < 50; i++){
             k.add(0F);
             cp.add(0F);
         }
-        this.k.set(0,this.kopt.getResult());
+        this.k.set(0,kopt);
         this.seq = 1;
         this.result = 0;
     }

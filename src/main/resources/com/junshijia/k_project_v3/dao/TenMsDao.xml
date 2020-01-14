@@ -17,7 +17,11 @@
 	</resultMap>
 
 	<select id="findAll" parameterType="java.lang.String" resultMap="ResultMap">
-		 select * from ${tableName}
+		 SELECT * from ${tableName} ORDER BY id LIMIT 9000
+	</select>
+
+	<select id="findLast" parameterType="java.lang.String" resultMap="ResultMap">
+		 SELECT * FROM ${tableName} ORDER BY id DESC LIMIT 1
 	</select>
 
 </mapper>

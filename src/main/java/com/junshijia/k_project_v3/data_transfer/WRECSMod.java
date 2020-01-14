@@ -10,6 +10,9 @@ import com.serotonin.modbus4j.exception.ModbusInitException;
 import com.serotonin.modbus4j.exception.ModbusTransportException;
 import com.serotonin.modbus4j.ip.IpParameters;
 import com.serotonin.modbus4j.locator.BaseLocator;
+import com.serotonin.modbus4j.msg.WriteCoilRequest;
+
+import java.sql.SQLOutput;
 
 public class WRECSMod {
     //modbus para
@@ -21,16 +24,16 @@ public class WRECSMod {
     private int port;
     private String ip;
     //output
-    private float output1;
+    private float currentKopt;
 
 
-    public WRECSMod() {
-        this.setIpPortAdd();
+    public WRECSMod(String ecsIp, int ecsPort) {
+        //this.setIpPortAdd();
         this.batch = new BatchRead<Integer>();
         //slave的信息
         this.ipParameters = new IpParameters();
-        ipParameters.setHost(this.ip);
-        ipParameters.setPort(this.port);
+        ipParameters.setHost(ecsIp);
+        ipParameters.setPort(ecsPort);
         this.factory = new ModbusFactory();
     }
 
@@ -63,7 +66,7 @@ public class WRECSMod {
     public void readSlave(){
         boolean flag = true;
         this.setMasterAndInit();
-        this.batch.addLocator(0, BaseLocator.holdingRegister(1, 1, DataType.FOUR_BYTE_FLOAT));
+        this.batch.addLocator(0, BaseLocator.holdingRegister(1, 50, DataType.FOUR_BYTE_FLOAT));
         this.batch.addLocator(1, BaseLocator.inputRegister(1, 1, DataType.FOUR_BYTE_FLOAT));
 
         while(flag) {
@@ -71,7 +74,7 @@ public class WRECSMod {
                 batch.setContiguousRequests(false);
                 BatchResults<Integer> results = master.send(batch);
                 //System.out.println(results.getValue(0));
-                this.output1 = (float)results.getValue(0);
+                this.currentKopt = (float)results.getValue(0);
 
                 flag = false;
             } catch (ModbusTransportException e) {
@@ -91,25 +94,38 @@ public class WRECSMod {
         }
     }
 
-    public void writeK(){
+    public void writeK(int function, Float kopt){
         boolean flag = true;
         this.setMasterAndInit();
-        BaseLocator<Number> locator1 = BaseLocator.holdingRegister(1, 1000, DataType.FOUR_BYTE_FLOAT_SWAPPED);
-        BaseLocator<Number> locator2 = BaseLocator.holdingRegister(1, 50, DataType.EIGHT_BYTE_INT_UNSIGNED);
-        this.batch.addLocator(3, BaseLocator.holdingRegister(1, 1000, DataType.FOUR_BYTE_FLOAT_SWAPPED));
+        //BaseLocator<Number> k_reg = BaseLocator.holdingRegister(1, 50, DataType.FOUR_BYTE_FLOAT_SWAPPED);
 
+        BaseLocator.inputStatus(1,0);
         //master.setValue(locator, 10000000);
         while(flag) {
             try {
-                master.setValue(locator1, 0);
-                master.setValue(locator1, 10000);
-                System.out.println(master.getValue(locator1));
 
-                BatchResults<Integer> results = master.send(batch);
-                System.out.println(results.getValue(3));
+
+                if(function==1) {
+                    //打开开关然后关闭，触发ecs采集
+                    new WriteCoilRequest(1, 0, true);
+                    Thread.sleep(4000);
+                    new WriteCoilRequest(1, 0, false);
+                }else if(function == 2 && kopt != 0F){
+                    //需要测试
+                    BaseLocator<Number> ecsK = BaseLocator.holdingRegister(
+                            1, 1000, DataType.FOUR_BYTE_FLOAT_SWAPPED);
+                    master.setValue(ecsK, kopt);
+                    System.out.println(master.getValue(ecsK));
+                    //打开开关然后关闭，触发ecs采集
+                    new WriteCoilRequest(1, 0, true);
+                    Thread.sleep(4000);
+                    new WriteCoilRequest(1, 0, false);
+                }else{
+                    System.out.println("error...funciton == 2 and kopt == 0F");
+                }
 
                 flag = false;
-            } catch (ModbusTransportException e) {
+            } catch (Exception e) {
                 System.out.println("reconnect to master 40s latter...");
                 this.master.destroy();
                 try {
@@ -118,16 +134,14 @@ public class WRECSMod {
                     ex.printStackTrace();
                 }
                 this.setMasterAndInit();
-            } catch (ErrorResponseException e) {
-                e.printStackTrace();
             } finally {
                 this.master.destroy();
             }
         }
     }
 
-    public float getOutput1() {
+    public float getCurrentKopt() {
         this.readSlave();
-        return output1;
+        return currentKopt;
     }
 }

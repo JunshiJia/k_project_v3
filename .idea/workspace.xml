@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d4cf8c8-de62-41a9-ab80-8fd4ac2e6deb" name="Default Changelist" comment="" />
+    <list default="true" id="4d4cf8c8-de62-41a9-ab80-8fd4ac2e6deb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/KValueProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/k_value_process/InitInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/k_value_process/KValueProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/k_value_process/UseAlg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/dao/TenMsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/dao/TenMsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/FetchDB2CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/FetchDB2CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/ReadMainControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/ReadMainControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/WRECSMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/WRECSMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/domain/AlgData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_utils/KUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_utils/KUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/process/InitInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/InitInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/process/Process.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/process/UseAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/UseAlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/junshijia/k_project_v3/dao/TenMsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/junshijia/k_project_v3/dao/TenMsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/RWFileTest/WRTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/RWFileTest/WRTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/modbus_test/ModbusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/modbus_test/ModbusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/pythonTest/UsePython.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/pythonTest/UsePython.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/dao/TenMsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/dao/TenMsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/dao/TenMsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/dao/TenMsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/data_transfer/FetchDB2CSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/data_transfer/FetchDB2CSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/data_transfer/ReadMainControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/data_transfer/ReadMainControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/data_transfer/WRECSMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/data_transfer/WRECSMod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/domain/AlgData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/k_utils/KUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/k_utils/KUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/process/InitInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/process/Process.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/k_project_v3/process/UseAlg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/RWFileTest/WRTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/RWFileTest/WRTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/modbus_test/ModbusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/modbus_test/ModbusTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/pythonTest/UsePython.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/pythonTest/UsePython.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +59,141 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/KValueProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/UseAlg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-538">
+              <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2560#2561#0" expanded="true" />
+                <element signature="e#2590#2591#0" expanded="true" />
+                <element signature="e#3007#3008#0" expanded="true" />
+                <element signature="e#3045#3046#0" expanded="true" />
+                <element signature="e#3085#3086#0" expanded="true" />
+                <element signature="e#3116#3117#0" expanded="true" />
+                <element signature="e#3169#3170#0" expanded="true" />
+                <element signature="e#3209#3210#0" expanded="true" />
+                <element signature="e#3246#3247#0" expanded="true" />
+                <element signature="e#3278#3279#0" expanded="true" />
+                <element signature="e#3329#3330#0" expanded="true" />
+                <element signature="e#3371#3372#0" expanded="true" />
+                <element signature="e#3409#3410#0" expanded="true" />
+                <element signature="e#3442#3443#0" expanded="true" />
+                <element signature="e#3495#3496#0" expanded="true" />
+                <element signature="e#3539#3540#0" expanded="true" />
+                <element signature="e#3582#3583#0" expanded="true" />
+                <element signature="e#3620#3621#0" expanded="true" />
+                <element signature="e#3683#3684#0" expanded="true" />
+                <element signature="e#3737#3738#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/InitInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/domain/TenMsData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_utils/KUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/RWFileTest/WRTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/ProgramStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/modbus_test/ModbusTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alg.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/FetchDB2CSV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="130" selection-end-column="9" />
+              <folding>
+                <element signature="e#3095#3096#0" expanded="true" />
+                <element signature="e#3126#3127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -29,8 +202,38 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>turbineNumber</find>
+      <find>address</find>
+      <find>list2Csv</find>
+      <find>WriteAlg2File</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/dao/TenMsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/process/InitInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/ReadMainControl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/junshijia/k_project_v3/dao/TenMsDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/FetchDB2CSV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/process/UseAlg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/WRECSMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/process/Process.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/pythonTest/UsePython.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/Process.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/modbus_test/ModbusTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/RWFileTest/WRTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_utils/KUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/UseAlg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/KValueProcess.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -39,7 +242,181 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="k_projectr_v3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="k_projectr_v3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
   <component name="ProjectId" id="1VYhkCllxamy2iRvP3uPQitdb8t" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="data_transfer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="k_utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="k_value_process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="modbus_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k_project_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k_project_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="RWFileTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -47,13 +424,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -61,7 +439,19 @@
       <recent name="F:\code\k_project_v3\src\main\resources\com\junshijia\k_project_v3\dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ModbusTest.test1">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.WRTest.commonioTest">
     <configuration name="ModbusTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="k_project_v3" />
       <extension name="coverage">
@@ -73,22 +463,6 @@
       <option name="PACKAGE_NAME" value="test.modbus_test" />
       <option name="MAIN_CLASS_NAME" value="test.modbus_test.ModbusTest" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PyTest.pyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="k_project_v3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.PyTest" />
-      <option name="METHOD_NAME" value="pyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,13 +516,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WRTest.commonioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="k_project_v3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.RWFileTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.RWFileTest" />
+      <option name="MAIN_CLASS_NAME" value="test.RWFileTest.WRTest" />
+      <option name="METHOD_NAME" value="commonioTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WRTest.commonioTest" />
         <item itemvalue="JUnit.ModbusTest.test1" />
         <item itemvalue="JUnit.UsePython.usePython" />
         <item itemvalue="JUnit.UsePython.usePython2" />
         <item itemvalue="JUnit.WRTest.WETest" />
-        <item itemvalue="JUnit.PyTest.pyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,8 +580,55 @@
       <workItem from="1578621623532" duration="449000" />
       <workItem from="1578622088508" duration="1012000" />
       <workItem from="1578626039747" duration="10378000" />
+      <workItem from="1578796449835" duration="20454000" />
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="WRTest_commonioTest - 2020.01.14 at 09h 54m 17s.xml">
+      <configuration name="WRTest.commonioTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WRTest_commonioTest - 2020.01.14 at 09h 54m 33s.xml">
+      <configuration name="WRTest.commonioTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20454000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.3287841" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3283767" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.3297568" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -261,5 +698,186 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1578472059413" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/infiniteautomation/modbus4j/3.0.4/modbus4j-3.0.4.jar!/com/serotonin/modbus4j/locator/BaseLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/dao/TenMsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DatabaseConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/junshijia/k_project_v3/dao/TenMsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/pythonTest/UsePython.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/domain/AlgData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/ReadMainControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/WRECSMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="123" column="76" selection-start-line="123" selection-start-column="76" selection-end-line="123" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/domain/TenMsData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/FetchDB2CSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="130" selection-end-column="9" />
+          <folding>
+            <element signature="e#3095#3096#0" expanded="true" />
+            <element signature="e#3126#3127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/modbus_test/ModbusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alg.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/InitInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/RWFileTest/WRTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/data_transfer/ProgramStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_utils/KUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/UseAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2560#2561#0" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="e#3007#3008#0" expanded="true" />
+            <element signature="e#3045#3046#0" expanded="true" />
+            <element signature="e#3085#3086#0" expanded="true" />
+            <element signature="e#3116#3117#0" expanded="true" />
+            <element signature="e#3169#3170#0" expanded="true" />
+            <element signature="e#3209#3210#0" expanded="true" />
+            <element signature="e#3246#3247#0" expanded="true" />
+            <element signature="e#3278#3279#0" expanded="true" />
+            <element signature="e#3329#3330#0" expanded="true" />
+            <element signature="e#3371#3372#0" expanded="true" />
+            <element signature="e#3409#3410#0" expanded="true" />
+            <element signature="e#3442#3443#0" expanded="true" />
+            <element signature="e#3495#3496#0" expanded="true" />
+            <element signature="e#3539#3540#0" expanded="true" />
+            <element signature="e#3582#3583#0" expanded="true" />
+            <element signature="e#3620#3621#0" expanded="true" />
+            <element signature="e#3683#3684#0" expanded="true" />
+            <element signature="e#3737#3738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junshijia/k_project_v3/k_value_process/KValueProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

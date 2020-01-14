@@ -1,20 +1,16 @@
 package test.pythonTest;
 
-import com.junshijia.k_project_v3.process.InitInput;
-import com.junshijia.k_project_v3.process.UseAlg;
+import com.junshijia.k_project_v3.k_value_process.InitInput;
+import com.junshijia.k_project_v3.k_value_process.UseAlg;
 import org.junit.Test;
-import org.python.core.*;
-import org.python.util.PythonInterpreter;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.rmi.server.ExportException;
-import java.util.List;
 
 public class UsePython {
     @Test
     public void usePython() throws Exception {
-        InitInput i = new InitInput();
+        InitInput i = new InitInput(0F);
         i.getK().set(0,0.7F);
 
         String[] args = new String[] { "python", "F:\\a.py", "F:\\aaa.csv",
@@ -42,6 +38,5 @@ public class UsePython {
     @Test
     public void usePython2() {
         UseAlg alg = new UseAlg();
-        alg.usePython();
     }
 }

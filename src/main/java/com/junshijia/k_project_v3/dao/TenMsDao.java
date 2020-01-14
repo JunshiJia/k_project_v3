@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface TenMsDao {
     List<TenMsData> findAll(String tableName);
+
+    TenMsData findLast(String tableName);
 }

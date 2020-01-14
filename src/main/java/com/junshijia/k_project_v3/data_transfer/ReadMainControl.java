@@ -24,13 +24,15 @@ public class ReadMainControl {
     private int address;
     private float result;
 
-    public ReadMainControl(String ip) {
-        this.ip = ip;
-        this.setIpPortAdd();
+    public ReadMainControl(String mcIp, int mcPort) {
+        this.ip = mcIp;
+        this.port = mcPort;
+        this.address = 1699;
+        //this.setIpPortAdd();
         this.batch = new BatchRead<Integer>();
         //加一个循环，id=2-6都要读
 
-        this.batch.addLocator(0, BaseLocator.inputRegister(1, this.address, DataType.FOUR_BYTE_FLOAT));
+        this.batch.addLocator(0, BaseLocator.inputRegister(1, this.address-1, DataType.FOUR_BYTE_FLOAT));
 
         //master的信息
         this.ipParameters = new IpParameters();
@@ -61,12 +63,8 @@ public class ReadMainControl {
     }
 
     private void setIpPortAdd(){
-        //this.ip = "192.168.101.244";
         //this.ip = "127.0.0.1";
-        this.port = 9876;
-        //id = 2-6
-        this.id = 2;
-        this.address = 1699;
+        //this.port = 9876;
     }
 
     public void readSlaveOnce(){

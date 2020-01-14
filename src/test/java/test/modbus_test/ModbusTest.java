@@ -6,8 +6,6 @@ import org.junit.Test;
 public class ModbusTest {
     @Test
     public void test1(){
-        WRECSMod wr = new WRECSMod();
 
-        wr.writeK();
     }
 }
